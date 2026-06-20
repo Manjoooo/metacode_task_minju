@@ -1,4 +1,4 @@
-# Criteo 광고 이벤트 기반 Local Iceberg Lakehouse Pipeline
+# Criteo 광고 이벤트 기반 Local Iceberg Lakehouse 
 
 ## 0. 프로젝트 목적
 
