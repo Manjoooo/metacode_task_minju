@@ -4,7 +4,7 @@
 
 본 프로젝트는 Criteo Attribution Modeling 데이터를 기반으로 광고 이벤트의 수집, 정제, 집계, 운영 모니터링을 수행하는 Local Lakehouse 파이프라인을 설계하고 구현하는 것을 목표로 한다.
 
-광고 데이터는 일반적인 append-only 로그와 다르게, 광고 노출(impression), 클릭(click), 전환(conversion)이 서로 다른 시점에 발생한다. 특히 conversion은 impression 또는 click 이후 수 시간에서 수 일 뒤에 발생할 수 있으므로, 이미 생성된 과거 KPI가 나중에 변경될 수 있다.
+광고 데이터는 광고 노출(impression), 클릭(click), 전환(conversion)이 서로 다른 시점에 발생한다. 특히 conversion은 impression 또는 click 이후 수 시간에서 수 일 뒤에 발생할 수 있으므로, 이미 생성된 과거 KPI가 나중에 변경될 수 있다.
 
 따라서 본 프로젝트의 핵심은 단순히 Kafka와 Spark로 데이터를 적재하는 것이 아니라, 광고 도메인에서 실제로 발생할 수 있는 다음 운영 문제를 Lakehouse 구조로 해결하는 것이다.
 
