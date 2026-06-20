@@ -16,7 +16,7 @@
 6. 정제 로직 오류 발생 시 raw zone에서 backfill해야 하는 문제
 7. 운영자가 매일 5분 안에 파이프라인 상태를 확인해야 하는 문제
 
-본 프로젝트는 AWS managed service를 직접 사용하는 완성형 운영 시스템이 아니라, 비용 제약과 재현 가능성을 고려하여 Local Docker 기반으로 광고 Lakehouse의 핵심 운영 문제를 재현하는 MVP이다.
+본 프로젝트는 AWS managed service를 직접 사용하는 완성형 운영 시스템이 아니라, 비용 제약과 재현 가능성을 고려하여 Local Docker 기반으로 광고 Lakehouse의 핵심 운영 문제를 재현
 
 ---
 
